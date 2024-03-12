@@ -76,7 +76,7 @@ class ScrollableTextCard extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SizedBox( // Wrap SingleChildScrollView with SizedBox
-          height: 250.0, // Set desired fixed height
+          height: 350.0, // Set desired fixed height
           child: SingleChildScrollView(
             child: Text(
               text,
